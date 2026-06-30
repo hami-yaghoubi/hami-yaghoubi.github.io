@@ -1,22 +1,3 @@
-# حامد یعقوبی | پورتفولیو
+# Hamid Yaghoubi | Resume
 
-وب‌سایت پورتفولیوی شخصی حامد یعقوبی - توسعه‌دهنده بک‌اند
-
-## فناوری‌ها
-
-- HTML5
-- CSS3
-- فونت Vazirmatn
-
-## راه‌اندازی
-
-1. فایل `assets/profile.jpg` را اضافه کنید
-2. فایل‌ها را در GitHub Pages مستقر کنید
-
-## ویژگی‌ها
-
-- طراحی RTL برای زبان فارسی
-- ریسپانسیو (دسکتاپ، تبلت، موبایل)
-- طراحی مینیمال و مدرن
-- بدون JavaScript
-- SEO بهینه
+You can visit the resume at [hami-yaghoubi.github.io](https://hami-yaghoubi.github.io).
