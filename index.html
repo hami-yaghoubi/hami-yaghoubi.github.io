@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="حامد یعقوبی - توسعه‌دهنده بک‌اند | Python / FastAPI | پورتفولیو حرفه‌ای">
+    <meta name="keywords" content="توسعه‌دهنده بک‌اند, Python, FastAPI, حامد یعقوبی, backend developer">
+    <meta name="author" content="حامد یعقوبی">
+
+    <!-- OpenGraph -->
+    <meta property="og:title" content="حامد یعقوبی | توسعه‌دهنده بک‌اند">
+    <meta property="og:description" content="توسعه‌دهنده بک‌اند با تمرکز بر ساخت سیستم‌های مقیاس‌پذیر با استفاده از Python و FastAPI">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hami-yaghoubi.github.io">
+    <meta property="og:image" content="assets/profile.jpg">
+
+    <title>حامد یعقوبی | توسعه‌دهنده بک‌اند</title>
+
+    <!-- Vazirmatn Font -->
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <link rel="stylesheet" href="style.css">
+    <script>
+        (function() {
+            var saved = localStorage.getItem('theme');
+            var theme = saved || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+            document.documentElement.setAttribute('data-theme', theme);
+        })();
+    </script>
+</head>
+<body>
+
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="themeToggle" aria-label="تغییر تم" type="button">
+        <i class="fa-solid fa-moon icon-moon"></i>
+        <i class="fa-solid fa-sun icon-sun"></i>
+    </button>
+
+    <!-- Hero Section -->
+    <header class="hero" id="hero">
+        <div class="hero-container">
+            <div class="profile-wrapper">
+                <img src="assets/profile.jpg" alt="عکس پروفایل حامد یعقوبی" class="profile-image">
+            </div>
+            <h1 class="hero-name">حامد یعقوبی</h1>
+            <p class="hero-title">توسعه‌دهنده بک‌اند <span class="separator">|</span> Python / FastAPI</p>
+            <div class="hero-buttons">
+                <a href="https://github.com/hami-yaghoubi" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                    <i class="fa-brands fa-github btn-icon"></i>
+                    GitHub
+                </a>
+                <a href="mailto:hami.yaghoubi.dev@gmail.com" class="btn btn-secondary">
+                    <i class="fa-solid fa-envelope btn-icon"></i>
+                    ایمیل
+                </a>
+                <a href="resume.pdf" download class="btn btn-secondary">
+                    <i class="fa-solid fa-download btn-icon"></i>
+                    دانلود رزومه (PDF)
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title">درباره من</h2>
+            <div class="about-content">
+                <p class="about-text">
+                    توسعه‌دهنده بک‌اند با تمرکز بر ساخت سیستم‌های مقیاس‌پذیر و قابل نگهداری با استفاده از Python و FastAPI. علاقه‌مند به معماری نرم‌افزار، طراحی APIهای RESTful، طراحی پایگاه داده و اصول مهندسی نرم‌افزار. دارای تجربه در پیاده‌سازی معماری لایه‌ای، سیستم‌های احراز هویت و تست‌نویسی خودکار.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section class="section section-alt" id="skills">
+        <div class="container">
+            <h2 class="section-title"><i class="fa-solid fa-code section-title-icon"></i> مهارت‌های فنی</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">زبان‌های برنامه‌نویسی</h3>
+                    <div class="skill-badges">
+                        <span class="skill-badge">Python</span>
+                        <span class="skill-badge">C++</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">بک‌اند</h3>
+                    <div class="skill-badges">
+                        <span class="skill-badge">FastAPI</span>
+                        <span class="skill-badge">REST API</span>
+                        <span class="skill-badge">JWT</span>
+                        <span class="skill-badge">Dependency Injection</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">پایگاه داده</h3>
+                    <div class="skill-badges">
+                        <span class="skill-badge">PostgreSQL</span>
+                        <span class="skill-badge">MySQL</span>
+                        <span class="skill-badge">Redis</span>
+                        <span class="skill-badge">SQLAlchemy</span>
+                        <span class="skill-badge">Alembic</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">مهندسی نرم‌افزار</h3>
+                    <div class="skill-badges">
+                        <span class="skill-badge">OOP</span>
+                        <span class="skill-badge">Repository Pattern</span>
+                        <span class="skill-badge">Unit Testing</span>
+                        <span class="skill-badge">Pytest</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">ابزارها</h3>
+                    <div class="skill-badges">
+                        <span class="skill-badge">Git</span>
+                        <span class="skill-badge">GitHub</span>
+                        <span class="skill-badge">Docker</span>
+                        <span class="skill-badge">uv</span>
+                        <span class="skill-badge">CI/CD</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="section-title"><i class="fa-solid fa-box-open section-title-icon"></i> پروژه‌ها</h2>
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-icon">
+                        <i class="fa-solid fa-cube"></i>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/hami-yaghoubi/Antique-Marketplace" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="مشاهده در GitHub">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <h3 class="project-title">بازارچه عتیقه</h3>
+                <p class="project-subtitle">Antique Marketplace Backend</p>
+                <p class="project-description">
+                    طراحی و پیاده‌سازی بک‌اند یک فروشگاه چندفروشنده برای محصولات عتیقه با استفاده از FastAPI.
+                </p>
+                <ul class="project-features">
+                    <li>معماری لایه‌ای (Router / Service / Repository)</li>
+                    <li>REST API کامل</li>
+                    <li>JWT Authentication + Refresh Token</li>
+                    <li>Role-based Authorization</li>
+                    <li>مدیریت محصولات و سبد خرید</li>
+                    <li>مدیریت سفارش‌ها و آپلود تصاویر</li>
+                    <li>PostgreSQL + SQLAlchemy + Alembic</li>
+                    <li>تست‌نویسی کامل با Pytest (بیش از ۲۳۰ تست)</li>
+                </ul>
+                <div class="project-tech">
+                    <span class="tech-tag">FastAPI</span>
+                    <span class="tech-tag">PostgreSQL</span>
+                    <span class="tech-tag">SQLAlchemy</span>
+                    <span class="tech-tag">Pytest</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section section-alt" id="education">
+        <div class="container">
+            <h2 class="section-title"><i class="fa-solid fa-graduation-cap section-title-icon"></i> تحصیلات</h2>
+            <div class="education-card">
+                <div class="education-icon">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <div class="education-content">
+                    <h3 class="education-university">دانشکدگان فارابی – دانشگاه تهران</h3>
+                    <p class="education-degree">مهندسی کامپیوتر</p>
+                    <p class="education-year">ورودی ۱۴۰۳</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Languages Section -->
+    <section class="section" id="languages">
+        <div class="container">
+            <h2 class="section-title"><i class="fa-solid fa-language section-title-icon"></i> زبان‌ها</h2>
+            <div class="languages-grid">
+                <div class="language-card">
+                    <i class="fa-solid fa-globe language-icon"></i>
+                    <span class="language-name">انگلیسی</span>
+                    <span class="language-level">Intermediate (B1)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-alt" id="contact">
+        <div class="container">
+            <h2 class="section-title"><i class="fa-solid fa-paper-plane section-title-icon"></i> تماس</h2>
+            <div class="contact-grid">
+                <a href="mailto:hami.yaghoubi.dev@gmail.com" class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <span class="contact-label">ایمیل</span>
+                    <span class="contact-value">hami.yaghoubi.dev@gmail.com</span>
+                </a>
+                <a href="tel:+989925739840" class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <span class="contact-label">شماره</span>
+                    <span class="contact-value" dir="ltr">09925739840</span>
+                </a>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <span class="contact-label">موقعیت</span>
+                    <span class="contact-value">قم، ایران</span>
+                </div>
+                <a href="https://github.com/hami-yaghoubi" target="_blank" rel="noopener noreferrer" class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                    <span class="contact-label">GitHub</span>
+                    <span class="contact-value">hami-yaghoubi</span>
+                </a>
+                <a href="https://t.me/hami_yaghoubi" target="_blank" rel="noopener noreferrer" class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fa-brands fa-telegram"></i>
+                    </div>
+                    <span class="contact-label">تلگرام</span>
+                    <span class="contact-value">@hami_yaghoubi</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">حامد یعقوبی &copy; ۱۴۰۵</p>
+        </div>
+    </footer>
+
+    <script>
+        (function() {
+            var toggle = document.getElementById('themeToggle');
+            toggle.addEventListener('click', function() {
+                var current = document.documentElement.getAttribute('data-theme');
+                var next = current === 'dark' ? 'light' : 'dark';
+                document.documentElement.setAttribute('data-theme', next);
+                localStorage.setItem('theme', next);
+            });
+        })();
+    </script>
+
+</body>
+</html>
